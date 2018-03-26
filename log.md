@@ -7,3 +7,11 @@
 **Thoughts:** Spent a lot of time setting up VIM and github on Windows 10. Learnt basics of Github from https://try.github.io/levels/1/challenges/1 and StackFlow https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase when couldn't get git pull and push to work (first pull forked repository with --allow-unrelated-histories flag then git push)
 
 **Link to work:** Point.py
+
+### Day 1: March 25, 2018
+
+**Today's Progress**: Worked on Classes and Objects exercises 15.1 from Think Complexity. 
+
+**Thoughts:** Learn how reuse classes and functions by importing Point.py as module and how to navigate in VIM and also add-on NERDTree)
+
+**Link to work:** Cicle.py (still WIP; haven't worked on 2 more functions)
