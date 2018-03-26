@@ -20,17 +20,48 @@ def point_in_circle(circle, point):
     d = distance_between_point(point, circle.center)
     return d <= circle.radius
 
-def rect_in_circle(circle, rectangle):
+def rect_in_circle(circle, rect):
     """
     check if  rectangle is within the  circle
     """
+    p = copy.copy(rect.corner)
+    if not point_in_circle(circle, p):
+        return False
+
+    p.x += rect.width
+    print_point(p)
+    if not point_in_circle(circle, p):
+        return False
+
+    p.y -= rect.length
+    print_point(p)
+    if not point_in_circle(circle, p):
+        return False
+
+    p.x -= rect.width
+    print_point(p)
+    if not point_in_circle(circle, p):
+        return False
+
+    return True
+
+
+
 
 def main():
     c = Circle()
     c.center = Point()
     c.center.x = 150
     c.center.y = 100
-    c.radius = 75
+    c.radius =300 
+
+
+    box = Rectangle()
+    box.width = 100
+    box.length = 200
+    box.corner = Point()
+    box.corner.x = 50
+    box.corner.y = 50
 
     p = Point()
     p.x = 80
@@ -39,6 +70,8 @@ def main():
     print_point(p)
     print('point within or on circle', end = ' ')
     print(point_in_circle(c, p))
+
+    print(rect_in_circle(c, box))
 
 
 
