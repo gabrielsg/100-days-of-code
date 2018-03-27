@@ -15,3 +15,11 @@
 **Thoughts:** Learn how reuse classes and functions by importing Point.py as module and how to navigate in VIM and also add-on NERDTree)
 
 **Link to work:** Cicle.py (still WIP; haven't worked on 2 more functions)
+
+### Day 2: March 26, 2018
+
+**Today's Progress**: Worked on Classes and Objects exercises 15.1 from Think Complexity. 
+
+**Thoughts:** Learn how reuse classes and functions by importing Point.py as module and how to navigate in VIM and also add-on NERDTree)
+
+**Link to work:** Cicle.py (worked on function Rectangle in Circle; pending one more function)
