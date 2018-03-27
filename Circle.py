@@ -46,14 +46,37 @@ def rect_in_circle(circle, rect):
     return True
 
 
+def rect_circle_overlap(circle, rect):
+    """
+    check whether any corners of rect fall in or on circle
+    """
+    p = copy.copy(rect.corner)
+    if point_in_circle(circle, p):
+        return True
 
+    p.x += rect.width
+    print_point(p)
+    if point_in_circle(circle, p):
+        return True
+
+    p.y -= rect.length
+    print_point(p)
+    if point_in_circle(circle, p):
+        return True
+
+    p.x -= rect.width
+    print_point(p)
+    if point_in_circle(circle, p):
+        return True
+
+    return False
 
 def main():
     c = Circle()
     c.center = Point()
     c.center.x = 150
     c.center.y = 100
-    c.radius =300 
+    c.radius = 300
 
 
     box = Rectangle()
@@ -72,6 +95,8 @@ def main():
     print(point_in_circle(c, p))
 
     print(rect_in_circle(c, box))
+
+    print(rect_circle_overlap(c, box))
 
 
 
