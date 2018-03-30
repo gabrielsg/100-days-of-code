@@ -23,6 +23,19 @@ def draw_circle(t, circle):
     t.pd()
     polygon.circle(t, circle.radius)
 
+def draw_rect(t, rect):
+    """
+    draws a rectangle
+    """
+    t.pu()
+    t.goto(rect.corner.x, rect.corner.y)
+    t.setheading(0) # set orientation to east (90north;180 west;270 south)
+    t.pd()
+
+    for length in rect.width, rect.length, rect.width, rect.length:
+        t.fd(length)
+        t.rt(90)
+
 
 if __name__ == '__main__':
     bob = turtle.Turtle()
@@ -43,6 +56,16 @@ if __name__ == '__main__':
     circle.radius = 75
 
     draw_circle(bob, circle)
+
+    #draw rectangle
+    box = Rectangle()
+    box.width = 100
+    box.length = 200
+    box.corner = Point()
+    box.corner.x = 50
+    box.corner.y = 50
+
+    draw_rect(bob, box)
 
     #wait for user to close the windows
     turtle.mainloop()
