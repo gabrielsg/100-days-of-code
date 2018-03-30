@@ -31,3 +31,11 @@
 **Thoughts:** Learn that when import module polygon, refer to function by using dot notation : eg polygon.circle. Also vim plug-ins show useful hints if imported modules/fuction are available
 
 **Link to work:** draw.py
+
+### Day 4: March 29, 2018
+
+**Today's Progress**: skipped 28 Mar because of work. Resumed last fuction : draw rectangle
+
+**Thoughts:** for loop : instead of iterable object (for x in range(5)), use explicit expression, ie for x in a, b, c, d.
+
+**Link to work:** draw.py
