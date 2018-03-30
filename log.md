@@ -23,3 +23,11 @@
 **Thoughts:** Learn how reuse classes and functions by importing Point.py as module and how to navigate in VIM and also add-on NERDTree)
 
 **Link to work:** Cicle.py (worked on function Rectangle in Circle; pending one more function)
+
+### Day 3: March 27, 2018
+
+**Today's Progress**: Worked on Classes and Objects exercises 15.2 from Think Complexity. 
+
+**Thoughts:** Learn that when import module polygon, refer to function by using dot notation : eg polygon.circle. Also vim plug-ins show useful hints if imported modules/fuction are available
+
+**Link to work:** draw.py
