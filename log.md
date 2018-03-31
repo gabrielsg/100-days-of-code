@@ -39,3 +39,11 @@
 **Thoughts:** for loop : instead of iterable object (for x in range(5)), use explicit expression, ie for x in a, b, c, d.
 
 **Link to work:** draw.py
+
+### Day 5: March 30, 2018
+
+**Today's Progress**: worked on time. learned about Functional Program which doesn't change the objects it takes as its parameter
+
+**Thoughts:** don't know how to efficently comment out code in vim. Control v paste instead of go into visual block
+
+**Link to work:** Time1.py
