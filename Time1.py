@@ -1,5 +1,5 @@
 """
-This module contains exercises taken from Chapter 10 of
+This module contains exercises taken from Chapter 16 of
 Think Python 2
 Classes and Functions
 
@@ -64,11 +64,24 @@ def int_to_time(seconds):
     time.hour, time.minute = divmod(minutes, 60)
     return time
 
+def valid_time(time):
+    if time.hour <  0 or time.minute < 0 or time.second < 0:
+        return False
+    if time.minute >= 60 or time.second >= 60:
+        return False
+    return True
 
 
+def add_times(t1, t2):
+    assert valid_time(t1) and valid_time(t2)
+    seconds = time_to_int(t1) + time_to_int(t2)
+    return int_to_time(seconds)
 
-
-
+def mul_time(t1, x):
+    assert valid_time(t1)
+    seconds = time_to_int(t1) * x
+    return int_to_time(seconds)
+    
 
 def main():
     time = Time()
@@ -81,7 +94,7 @@ def main():
 
     time2 = Time()
     time2.hour = 11
-    time2.minute = 15
+    time2.minute = 35
     time2.second = 45
 
     print(is_after(time, time2))
@@ -95,9 +108,19 @@ def main():
 
     print_time(increment(time, 30))
 
+    #explore assert statement
+    print_time(add_times(time, time2))
 
-
+    #pace
+    time3 = Time()
+    time3.hour = 3
+    time3.minute = 45
+    time3.second = 30
+    distance = 42  #km
+    pace = mul_time(time3, 1/distance)
+    print_time(pace)
 
 
 if __name__ == '__main__':
     main()
+
