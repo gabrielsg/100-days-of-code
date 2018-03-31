@@ -47,3 +47,11 @@
 **Thoughts:** don't know how to efficently comment out code in vim. Control v paste instead of go into visual block
 
 **Link to work:** Time1.py
+
+### Day 6: March 31, 2018
+
+**Today's Progress**: More exercise on Time class
+
+**Thoughts:** use replace r in vim to edit characters more efficiently
+
+**Link to work:** Time1.py
