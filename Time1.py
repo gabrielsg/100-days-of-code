@@ -4,6 +4,9 @@ Think Python 2
 Classes and Functions
 
 """
+
+from datetime import datetime
+
 class Time():
     """
     Represents time of day
@@ -81,7 +84,28 @@ def mul_time(t1, x):
     assert valid_time(t1)
     seconds = time_to_int(t1) * x
     return int_to_time(seconds)
-    
+
+
+def days_until_birthday(birthday):
+    today = datetime.today()
+    next_birthday = datetime(today.year, birthday.month, birthday.day)
+    if today > next_birthday:
+        next_birthday = datetime(today.year + 1, birthday.month, birthday.day)
+    delta = next_birthday - today
+    return delta.days
+
+def double_day(b1, b2):
+    """
+    b1 - birthday of younger person
+    b2 - birthday of older person
+
+    compute the day when one person is twice as old as the other
+    """
+    assert b1 > b2
+    delta = b1 - b2
+    dday = b1 + delta
+    return dday
+
 
 def main():
     time = Time()
@@ -119,6 +143,24 @@ def main():
     distance = 42  #km
     pace = mul_time(time3, 1/distance)
     print_time(pace)
+
+    # using datetime module
+    today = datetime.today()
+    print(today.strftime('%a'))
+
+    #compute number of days, hour, min, time to next birthday
+    birthday = datetime(1965, 7, 16)
+    print('Number of days before your birthday', end = ' ')
+    print(days_until_birthday(birthday))
+    print('I am ', end = ' ')
+    age = datetime.today() - birthday
+    print(age.days / 365)
+
+    #compute day one person is twice as old as another
+    b1 = datetime(1998, 7, 28)
+    b2 = datetime(1965, 7, 16)
+    print('Double Day', end = ' ')
+    print(double_day(b1, b2))
 
 
 if __name__ == '__main__':
