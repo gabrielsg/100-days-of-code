@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 7: Aprl 1, 2018
+
+**Today's Progress**: Finished exercises on datetime objects
+
+**Thoughts:** not quite sure about timedelta object and attributes
+
+**Link to work:** Time1.py
+
+
 ### Day 6: March 31, 2018
 
 **Today's Progress**: More exercise on Time class
