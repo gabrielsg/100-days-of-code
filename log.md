@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 8: Aprl 2, 2018
+
+**Today's Progress**: No coding. Just read chapter 17 of Think Python 2nd Ed
+
+**Thoughts:** introduce methods to programmer defined types, ie class
+
+**Link to work:** NA
+
+
 ### Day 7: Aprl 1, 2018
 
 **Today's Progress**: Finished exercises on datetime objects
