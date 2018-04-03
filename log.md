@@ -1,5 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 9: Aprl 3, 2018
+
+**Today's Progress**: Worked on exercise in chatper 17 : Classes and Method
+
+**Thoughts:** __init__ makes it easier to instantiate objects and __str__ which is useful for debugging. Other special methods include __add__, __lt__, ... http://docs.python.org/3/reference/datamodel.html#specialnames
+
+**Link to work:** Point2.py, Time2.py
+
+### Day 8: Aprl 2, 2018
+
+**Today's Progress**: No coding. Just read chapter 17 of Think Python 2nd Ed
+
+**Thoughts:** introduce methods to programmer defined types, ie class
+
+**Link to work:** NA
+
+
+### Day 7: Aprl 1, 2018
+
+**Today's Progress**: Finished exercises on datetime objects
+
+**Thoughts:** not quite sure about timedelta object and attributes
+
+**Link to work:** Time1.py
+
+
 ### Day 6: March 31, 2018
 
 **Today's Progress**: More exercise on Time class
