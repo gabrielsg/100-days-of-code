@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 9: Aprl 3, 2018
+
+**Today's Progress**: Worked on exercise in chatper 17 : Classes and Method
+
+**Thoughts:** __init__ makes it easier to instantiate objects and __str__ which is useful for debugging. Other special methods include __add__, __lt__, ... http://docs.python.org/3/reference/datamodel.html#specialnames
+
+**Link to work:** Point2.py, Time2.py
+
 ### Day 8: Aprl 2, 2018
 
 **Today's Progress**: No coding. Just read chapter 17 of Think Python 2nd Ed
