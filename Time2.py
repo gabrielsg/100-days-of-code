@@ -27,6 +27,21 @@ class Time():
     def print_time(self):
         print(str(self))
 
+    def add_time(self, other):
+        seconds = self.time_to_int() + other.time_to_int()
+        return int_to_time(seconds)
+
+    #operator overloading +
+    def __add__(self, other):
+        if isinstance(other, Time):
+            return self.add_time(other)
+        else:
+            return self.increment(other)
+
+    # right side add, to make the addition operator commutative
+    def __radd__(self, other):
+        return self.__add__(other)
+
 def int_to_time(seconds):
     """
     makes a new Time object from seconds
@@ -44,7 +59,13 @@ def main():
     time1= Time(12, 45, 30)
     print(time1)
 
+    start = Time(9, 45)
+    duration = Time(1, 35)
+    print(start + duration)
 
+    print(start + 1337)
+
+    print(4000 + start) # add is commutative because of __radd__ 
 
 
 if __name__ == '__main__':
