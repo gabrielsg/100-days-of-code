@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 10: Aprl 5, 2018
+
+**Today's Progress**: Worked on more exercise in chapter 17 : Classes and Method
+
+**Thoughts:** learned about .gitignore in git. not sure how to hide dotfile and un files created by vim (persistent undo and backup) https://stackoverflow.com/questions/15660669/what-is-a-un-file-or-or-why-does-vim-in-the-terminal-make-the-un-file
+
+**Link to work:** Point2.py, Time2.py
+
+
 ### Day 9: Aprl 3, 2018
 
 **Today's Progress**: Worked on exercise in chatper 17 : Classes and Method
