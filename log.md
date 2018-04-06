@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 11: Aprl 6, 2018
+
+**Today's Progress**: last exercise in  chapter 17 : Classes and Method
+
+**Thoughts:** struggled with __str__ method. remember not to put () after class name when defining class. when instantiating class, then use () with parameters if needed. To uncomment code in vim in Windows, use Ctrl-Q (not Ctrl-V) to go into visual block, highlight block then Shift-I to go into Insert mode, then # and escape. Do reverse when uncommenting, but use x on the # character
+
+**Link to work:** Kangaroo.py
+
+### Day 10: Aprl 5, 2018
+
+**Today's Progress**: Worked on more exercise in chapter 17 : Classes and Method
+
+**Thoughts:** learned about .gitignore in git. not sure how to hide dotfile and un files created by vim (persistent undo and backup) https://stackoverflow.com/questions/15660669/what-is-a-un-file-or-or-why-does-vim-in-the-terminal-make-the-un-file
+
+**Link to work:** Point2.py, Time2.py
+
+
 ### Day 9: Aprl 3, 2018
 
 **Today's Progress**: Worked on exercise in chatper 17 : Classes and Method
