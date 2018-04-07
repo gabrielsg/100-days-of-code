@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 12: Aprl 7, 2018
+
+**Today's Progress**: Started on Chapter 18 : Inheritance
+
+**Thoughts:** distinguish between class attributes (which are defined inside a class but outside any method) and instance attribute. Alsu used new Python 3.6 f formatter. 
+
+**Link to work:** Card.py
+
+
 ### Day 11: Aprl 6, 2018
 
 **Today's Progress**: last exercise in  chapter 17 : Classes and Method
