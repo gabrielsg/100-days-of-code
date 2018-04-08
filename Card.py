@@ -3,6 +3,8 @@ Chapter 17 Inheritance
 Think Python 2nd Edition
 
 """
+import random
+
 class Card:
     """
     Represents a playing cards
@@ -36,24 +38,41 @@ class Deck:
                 card = Card(suit, rank)
                 self.cards.append(card)
 
-
     def __str__(self):
         res = []
         for card in self.cards:
             res.append(str(card))
         return '\n'.join(res)
 
+    def pop_card(self):
+        return self.cards.pop()
 
+    def add_card(self, card):
+        self.cards.append(card)
 
+    def shuffle(self):
+        random.shuffle(self.cards)
 
+class Hand(Deck):
+    """
+    represents a hand of playing cards
+    inherits  methods from Deck class
+    """
+    def __init__(self, label=''):
+        self.cards = []
+        self.label = label
 
-
-
-
-card1 = Card()
-print(card1)
-card2 = Card(0,1)
-print(card2)
-print(card1 < card2)
+#card1 = Card()
+#print(card1)
+#card2 = Card(0,1)
+#print(card2)
+#print(card1 < card2)
+#deck = Deck()
+#print(deck)
+hand = Hand('New Hand')
+print(hand.cards)
+print(hand.label)
 deck = Deck()
-print(deck)
+card = deck.pop_card()
+hand.add_card(card)
+print(hand)
