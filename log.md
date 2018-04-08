@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 13: Aprl 8, 2018
+
+**Today's Progress**: Started on Chapter 18 : Inheritance
+
+**Thoughts:** learned class inheritance. Hand class inherited methods from Deck class. Tried Visual Studio Code with Python extension and vim key bindings. quite cool. will try out both vim with extensions and vs code
+
+**Link to work:** Card.py
+
+
 ### Day 12: Aprl 7, 2018
 
 **Today's Progress**: Started on Chapter 18 : Inheritance
