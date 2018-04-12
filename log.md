@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 14: Aprl 12, 2018
+
+**Today's Progress**: Took a break from Inheritance in Think Python to learn about file operations in Python
+
+**Thoughts:** use *with open(filepath) as fp* pattern; strip() method; split(' ') method for words
+
+**Link to work:** file.py
+
+
 ### Day 13: Aprl 8, 2018
 
 **Today's Progress**: Started on Chapter 18 : Inheritance
