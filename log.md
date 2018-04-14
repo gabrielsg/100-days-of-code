@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 15: Aprl 14, 2018
+
+**Today's Progress**: Reviewed example of Markov Analysis. Looked up https://www.investopedia.com/terms/m/markov-analysis.asp. Had some problem with *prefix* tuple datas structure (single element require a comma at the end).  Dpn't understand how the variable/arguement *script* is used. Also, tried examples of conditional expression, list comprehension.
+
+**Thoughts:** Need to review data structures like tuple and dictionary again
+
+**Link to work:** markov.py, goodies.py
+
+
 ### Day 14: Aprl 12, 2018
 
 **Today's Progress**: Took a break from Inheritance in Think Python to learn about file operations in Python
