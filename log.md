@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 17: Aprl 18, 2018
+
+**Today's Progress**: Tried out examples on namedtuple, Counter, defaultdict, and gather/scatter keyword argument
+
+**Thoughts:** note argument in defautldict
+
+**Link to work:** goodies.py
+
+
 ### Day 16: Aprl 16, 2018
 
 **Today's Progress**: Tried out examples on Set and Generators.
