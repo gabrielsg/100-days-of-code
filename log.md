@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 18: Aprl 21, 2018
+
+**Today's Progress**: Swithched gears. Think Stats. No coding. Reviewed data of NSFG (CDC's National Survey of Family Growth)
+
+**Thoughts:** NSFG is a cross-sectional study, ie snapshot of a group at a point in time. Longitudinal study observes a group repeatedly over a period of time
+
+**Link to work:** None
+
+
 ### Day 17: Aprl 18, 2018
 
 **Today's Progress**: Tried out examples on namedtuple, Counter, defaultdict, and gather/scatter keyword argument
