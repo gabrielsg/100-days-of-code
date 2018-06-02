@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 19: Jun 1, 2018
+
+**Today's Progress**: Back from break. Started Git Tutorial from LinkedIn Tutorial.
+
+**Thoughts:** Got a good grasp of fundamentals of Working Director, Staging Directory, and Repository. Git Windows did not seem to recognize modified file in working directory. Switched to Ubuntu for tutorial. Also used linux commands like find and sed and xargs to make changes to text in multiple files, eg ```find . -type f -not -path '*/\.git/*' | xargs sed -i 's/_backpack.html/_backpack_cal.html/'```
+
+**Link to work:** None
+
+
 ### Day 18: Aprl 21, 2018
 
 **Today's Progress**: Swithched gears. Think Stats. No coding. Reviewed data of NSFG (CDC's National Survey of Family Growth)
