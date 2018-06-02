@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 20: Jun 2, 2018
+
+**Today's Progress**: Continue with Git. 
+
+**Thoughts:** 
+- Another fundamental in Git is that ***changes are applied in set***. 
+- Git refers to Commits (snapshots of changes) by their hash values,and metadata such as author, parent, message, 
+- Learned commands such as ```git diff``` (check differences in modified file and original in ***working*** directory, ```git checkout -- <filename>``` (revert to original file committed to repository; ```--``` means using current branch instead of switching to a different branch) 
+
+List of git commands learnt so far:
+- git config --list
+- git init
+- git status
+- git diff (working directory)
+- git diff --staged (staging directory)
+- git add
+- git commit -m "..."
+- git log
+- git checkout
+- git commit --amend -m "..." (changes to last commit; not possible to change earlier commits)
+
+**Link to work:** None
+
+
 ### Day 19: Jun 1, 2018
 
 **Today's Progress**: Back from break. Started Git Tutorial from LinkedIn Tutorial.
