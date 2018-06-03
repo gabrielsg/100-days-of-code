@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 21: Jun 3, 2018
+
+**Today's Progress**: Continue with Git
+ich 
+**Thoughts:** Learned '''git reset'''. Options are '''--soft''' and '''--mixed'' which reset the HEAD pointer to earlier commits while leaving the files in working or staging directory. '''--hard''' resets to the another repository.
+
+.gitignore file is placed in the root project directory. Commit .gitignore file.
+
+For user-specific .gitignore use ```git config --global core.excludefiles ~/.gitignore_gobal``` (or any descriptive filename)
+
+```git rm --cached <filename>``` remove <filename> from the staging index but not the repo. Use case : initial log committed to repo but not needed to track changes to log file
+  
+Git tracks files not directories. So to track empty directories, convention is to create a small .gitkeep file in the empty directory you wish to track
+
+**Link to work:** None
+
+
 ### Day 20: Jun 2, 2018
 
 **Today's Progress**: Continue with Git. 
