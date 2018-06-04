@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 22: Jun 4, 2018
+
+**Today's Progress**: Continue with Git
+
+**Thoughts:** Useful git log commands to compare different commits :
+```git diff --stat --summary <SHA Value>..HEAD``` (pretty summary showing changes from range of commits)
+```git diff -w <SHA Value>..HEAD``` (Ignore space changes)
+
+Branch allows you to :
+- try new ideas
+- section of work areas to allow teams to collaborate on different parts
+
+**Link to work:** None
+
+
 ### Day 21: Jun 3, 2018
 
 **Today's Progress**: Continue with Git
