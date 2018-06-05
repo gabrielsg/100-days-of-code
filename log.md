@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 23 Jun 54, 2018
+
+**Today's Progress**: Continue with Git
+
+**Thoughts:** More on branches
+-```git checkout <branch name>``` (creates branch)
+- ```git checkout -b <branch name>``` (creates branch and switches to it)
+-```git branch``` (list branches and which is the current branch)
+-```git diff master..<branchB>``` (compare tip of  master and Branch B)
+
+**Link to work:** None
+
+
 ### Day 22: Jun 4, 2018
 
 **Today's Progress**: Continue with Git
