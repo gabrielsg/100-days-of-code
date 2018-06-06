@@ -5,10 +5,8 @@
 **Today's Progress**: Continue with Git
 
 **Thoughts:** More on branches
+
 -```git branch -m <old branch name> <new branch name>``` (rename branch)
-- ```git checkout -b <branch name>``` (creates branch and switches to it)
--```git branch``` (list branches and which is the current branch)
--```git diff master..<branchB>``` (compare tip of  master and Branch B)
 
 **Link to work:** None
 
