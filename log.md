@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 25 Jun 8, 2018
+
+**Today's Progress**: Continue with Git
+
+**Thoughts:** More on branches
+
+To merge a branch:
+- checkout to receiving branch eg ```git check master```
+- ```git merge <sending branch>```
+- ``` git diff master..<sending branch>``` will show no differenc after merge operation
+- ```git branch --merged``` will show <sending branch> fully incorporate in receiving branch; may delete sending branch
+
+
+**Link to work:** None
+
+
 ### Day 24 Jun 6, 2018
 
 **Today's Progress**: Continue with Git
