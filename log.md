@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+
+### Day 26 Jun 1, 2018
+
+**Today's Progress**: Continue with Git
+
+**Thoughts:** Strategies to avoid Merge conflict (see below). Stash is not part of working directory, staging or repo. It is often used when switching branches but not quite ready to make a commit on changes. No SHA value assigned for Stash.
+. 
+- keep the lines short
+- keep commits small and focused
+- beware stray edits to whitespaces : tab, spaces, line returns
+- merge often
+- track changes to master
+
+**Link to work:** None
+
+
 ### Day 25 Jun 8, 2018
 
 **Today's Progress**: Continue with Git
