@@ -1,7 +1,25 @@
 # 100 Days Of Code - Log
 
 
-### Day 26 Jun 1, 2018
+### Day 27 Jun 11, 2018
+
+**Today's Progress**: Continue with Git
+
+**Thoughts:** Stash commands:
+
+
+- ```git stash save "..."``` don't need -m for message
+- ```git stash list``` list saved stashes. name format is stash@{number}
+- ```git stash show -p stash@{0}```
+- ```git stash pop``` put stash into working directory; removes from stash
+- ```git stash apply``` like pop but leaves a copy in the stash
+
+
+**Link to work:** None
+
+
+
+### Day 26 Jun 10, 2018
 
 **Today's Progress**: Continue with Git
 
