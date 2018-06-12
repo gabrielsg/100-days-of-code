@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 28 Jun 12, 2018
+
+**Today's Progress**: Continue with Git (Trump Kim Summit at Capella Hotel, Sentosa)
+
+**Thoughts:** Stash & Remote commands. Rmote repository is just another repository. act as a clearing house with other collaborators. local computer has a master branch and origin/master branch. remote computer has master branch. local computer 'push' a commit to remote computer. when there is new commit on the remote computer by another user, local computer can 'fetch' commit from remote computer and the index will point to the local orgin/master. merge to sync the local master branch to the local origin/master branch
+
+
+- ```git stash drop stash@{#}``` delete stash
+- ```git stash clear``` delete all stashes
+-```git remote``` list all branches on remote compute
+- ```git remote add origin <url>``` add remote repository; origin is the conventional alias for the remote branch
+- ```git remote -v``` list remote branch fetch and push
+- ```git remote rm origin``` remove remote branch
+- .git/config file fcontains info on remote branch
+
+
+
+**Link to work:** None
+
 
 ### Day 27 Jun 11, 2018
 
