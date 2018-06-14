@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 29 Jun 15, 2018
+
+**Today's Progress**: Continue with Git 
+
+**Thoughts:** ```fetch``` syncs remote with origin/master not with master. Because fetch does not affect the local repo,good practice to fetch before you work, fetch before you push, and fetch often. ```git merge``` origin/master to sync/fast forward master. ```git pull``` = ```git fetch``` + ```git merge```
+
+**Link to work:** See remote expllore-California repository
+
+
 ### Day 28 Jun 12, 2018
 
 **Today's Progress**: Continue with Git (Trump Kim Summit at Capella Hotel, Sentosa)
