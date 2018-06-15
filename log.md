@@ -1,6 +1,16 @@
 # 100 Days Of Code - Log
 
-### Day 29 Jun 15, 2018
+### Day 30 Jun 15, 2018
+
+**Today's Progress**: Continue with Git 
+
+**Thoughts:** git doesn't do a merge when doing a remote push. When pushing to a remote updated branch, first fetch, then merge, then push to remote branch.
+
+**Link to work:** 
+
+
+
+### Day 29 Jun 14, 2018
 
 **Today's Progress**: Continue with Git 
 
