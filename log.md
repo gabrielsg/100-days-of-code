@@ -1,5 +1,61 @@
 # 100 Days Of Code - Log
 
+### Day 31 Jun 16, 2018
+
+**Today's Progress**: Continue with Git 
+
+**Thoughts:** common git aliases; best to put aliases in user directory in .gitconfig. 
+
+- ```git config --global alias.co checkout```
+- ```git config --global alias.ci commit```
+-``` git config --global alias.df diff```
+-``` git config --global alias.dfs "diff --staged"```
+- ```git config --global alias.br branch```
+- ```git config --global alias.logg "log --oneline --graph --decorate --abbrev-commit --all"```
+
+Typical git workflow:
+
+My work:
+
+-```git checkout master```
+- ``` git fetch```
+- ```git merge origin/master```
+- ```git checkout -b <new branch>``` create and checkout new branch to do some work
+- ```git add somework.py```
+- ```git commit -m "message on somework.py"```
+- ```git fetch``` do fetch from remote before pushing new commits to remote
+- ```git push -u origin <new branch>```
+- send email to collaborator to info of new work for her to review
+
+Collaborator:
+
+- ```git checkout master```
+- ```git fetch```
+- ```git merge origin/master```
+- ```git checkout -b <new branch> origin/<new branch>```
+- ```git log```
+- ```git show <SHA value>```
+- ```git commit -am "edits to somework.py"```
+- ```git fetch```
+- ```git push```
+- send email back to me about changes made
+
+
+My work:
+
+- ```git fetch```
+- ```git log -p <new branch>..origin/<new branch>``` p stands for patch. show diff between my commits and commits from collaborator on origin/<new branch>
+- ```git merge origin/<new branch>```
+- ``` git checkout master```
+- ``` git fetch```
+- ``` git merge origin/master```
+- ``` git merge <new branch>
+- ``` git push```
+
+
+**Link to work:**
+
+
 ### Day 30 Jun 15, 2018
 
 **Today's Progress**: Continue with Git 
